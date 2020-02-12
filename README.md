@@ -1,6 +1,6 @@
-## Ruby模塊化之Ruby意志
+## Ruby Models
   
-# rails main model
+# rails main model 
 > Framework
 - Model
 - Controller
