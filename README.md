@@ -10,9 +10,10 @@
 > Config
 - routes  
 
-# db
+# db 
 > migrate & seeds
 - postgreSQL
+- sqlife
 
 # public
 > Template  
