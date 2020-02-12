@@ -8,7 +8,7 @@ class BackendController < ApplicationController
   end
  
   def get_system
-    #@set_system = System.find(1)
+    @set_system = System.find(1)
   end
 
   private
