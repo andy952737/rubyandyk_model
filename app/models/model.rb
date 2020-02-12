@@ -1,6 +1,6 @@
 #ruby model code note
 
-belongs_to :model
+belongs_to :model 
  
 has_many :models
 

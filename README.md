@@ -1,15 +1,21 @@
 ## Ruby模塊化之Ruby意志
   
-# MVC
+# rails main model
+> Framework
 - Model
 - Controller
 - View 
+ 
+# config
+> Config
+- routes  
 
-# Config
-- Routes  
-
-# DB
+# db
+> migrate & seeds
 - postgreSQL
+
+# public
+> Template  
 
 # Linux ubuntu install
 > Google Cloud Platform ubuntu 18.04~ nginx passenger ruby rails
