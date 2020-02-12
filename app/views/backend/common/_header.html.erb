@@ -1,0 +1,49 @@
+<header class="header white-bg">
+	<div class="sidebar-toggle-box">
+		<div data-original-title="Toggle Navigation" data-placement="right" class="fa fa-bars tooltips"></div>
+	</div>
+	<!--logo start-->
+	<a href="<%= backend_index_path %>" class="logo" ><span><%= @set_system.name %></span></a>
+	<!--logo end-->
+	<div class="nav notify-row" id="top_menu">
+		<!--  notification start -->
+	</div>
+	<div class="top-nav ">
+		<ul class="nav pull-right top-menu">
+			<!-- <li>
+				<input type="text" class="form-control search" placeholder="Search">
+			</li> -->
+			<!-- user login dropdown start--> 
+			<li>
+				<a href="#MyModal" data-action="<%= edit_backend_admin_path(@admin_login) %>" data-title="編輯使用者"> <i class="fa fa-star"></i> <span>使用者</span> </a>
+			</li>
+			<li>
+				<a href="#MyModal" data-action="<%= edit_backend_system_path(@set_system) %>" data-title="系統設定"> <i class="fa fa-star"></i> <span>系統設定</span> </a>
+			</li>
+			<li class="dropdown">
+				<a data-toggle="dropdown" class="dropdown-toggle" href="#"> <span class="username"><%= @admin_login.name %></span> <b class="caret"></b> </a>
+				<ul class="dropdown-menu extended logout">
+					<div class="log-arrow-up"></div>
+					<!-- <li>
+					<a href="/backend/edit"><i class=" fa fa-suitcase"></i><%= yield(:profile) %></a>
+					</li>
+					<li>
+					<a href="/backend/system"><i class="fa fa-cog"></i><%= yield(:settings) %></a>
+					</li>
+					<li>
+					<a href="/backend/index"><i class="fa fa-bell-o"></i><%= yield(:notification) %></a>
+					</li> -->
+					<li>
+						<%= link_to(logout_backend_session_index_path) do %>
+						<i class='fa fa-key'></i>管理後台登出
+						<% end %>
+					</li>
+				</ul>
+			</li>
+			<!-- user login dropdown end -->
+			<!-- <li class="sb-toggle-right">
+			<i class="fa  fa-align-right"></i>
+			</li> -->
+		</ul>
+	</div>
+</header>

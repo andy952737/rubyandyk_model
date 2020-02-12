@@ -1,12 +1,12 @@
 ## Ruby Models
   
-# rails main model 
+# rails main model - Backend
 > Framework
 - Model
 - Controller
-- View 
- 
-# config
+- View  
+  
+# config 
 > Config
 - routes  
 
@@ -16,6 +16,9 @@
 
 # public
 > Template  
+
+# Gem
+> Gemfile
 
 # Linux ubuntu install
 > Google Cloud Platform ubuntu 18.04~ nginx passenger ruby rails

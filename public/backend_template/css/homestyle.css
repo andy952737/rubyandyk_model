@@ -1,0 +1,139 @@
+body {
+	background: #F5F5F5;
+}
+
+#sidebar {
+	height: 100%;
+	position: fixed;
+	background: #ffffff;
+	box-shadow: 1px 1px 1px #D3D3D3;
+}
+
+
+ul.sidebar-menu li a.active, ul.sidebar-menu li a:hover, ul.sidebar-menu li a:focus {
+	background: #646464;
+	color: #FFFFFF;
+	font-weight: bolder;
+	padding: 15px;
+}
+
+/*.sub-menu > a:hover {
+ background: #3F3F3F;
+ color: #fff;
+ }
+
+ .sideactive > a.active {
+ background: #3F3F3F;
+ color: #fff;
+ }*/
+
+#sidebar ul li {
+	text-align: center;
+}
+
+ul.sidebar-menu li a {
+	color: #3F3F3F;
+	padding: 15px;
+}
+
+ul.sidebar-menu li ul.sub li {
+	background: #DFDFDF;
+}
+
+ul.sidebar-menu li ul.sub li a {
+	color: #622A2A;
+}
+
+#sidebar .sub-menu > .sub li {
+	padding-left: 0;
+	text-align: center;
+}
+
+#sidebar > ul > li.active > ul.sub, #sidebar > ul > li > ul.sub > li > a {
+	line-height: 26px;
+}
+
+.hot-heading {
+	background: #ca4e32;
+	color: #fff;
+}
+
+.panel {
+	border: solid 1px #C0C0C0;
+}
+
+.music-heading {
+	background: #d6ba33;
+	color: #fff;
+}
+
+.sporting-heading {
+	background: #768856;
+	color: #fff;
+}
+
+.game-heading {
+	background: #4173b8;
+	color: #fff;
+}
+
+.news-heading {
+	background: #8e6591;
+	color: #fff;
+}
+
+.hot-side:hover, .hot-side:focus {
+	background: #ca4e32 !important;
+	color: #fff !important;
+	font-weight: bolder;
+	padding: 15px;
+}
+
+.music-side:hover, .music-side:focus {
+	background: #d6ba33 !important;
+	color: #fff !important;
+	font-weight: bolder;
+	padding: 15px;
+}
+.sporting-side:hover, .sporting-side:focus {
+	background: #768856 !important;
+	color: #fff !important;
+	font-weight: bolder;
+	padding: 15px;
+}
+.game-side:hover, .game-side:focus {
+	background: #4173b8 !important;
+	color: #fff !important;
+	font-weight: bolder;
+	padding: 15px;
+}
+.news-side:hover, .news-side:focus {
+	background: #8e6591 !important;
+	color: #fff !important;
+	font-weight: bolder;
+	padding: 15px;
+}
+
+.about-side:hover, .about-side:focus {
+	background: #b47448 !important;
+	color: #fff !important;
+	font-weight: bolder;
+	padding: 15px;
+}
+
+.contact-side:hover, .contact-side:focus {
+	background: #93979a !important;
+	color: #fff !important;
+	font-weight: bolder;
+	padding: 15px;
+}
+
+.indeximg {
+	width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+	.videoimg {
+		margin-bottom: 15px;
+	}
+}
